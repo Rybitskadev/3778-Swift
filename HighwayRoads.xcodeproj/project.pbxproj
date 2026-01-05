@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		728CB6A12F0BEA6E000A502D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 728CB69E2F0BEA6E000A502D /* Assets.xcassets */; };
+		728CB6A22F0BEA6E000A502D /* HighwayRoadsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CB69F2F0BEA6E000A502D /* HighwayRoadsApp.swift */; };
+		728CB6AD2F0BEA76000A502D /* HRHomeWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CB6A82F0BEA76000A502D /* HRHomeWebView.swift */; };
+		728CB6AE2F0BEA76000A502D /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CB6A42F0BEA76000A502D /* View+Extensions.swift */; };
+		728CB6AF2F0BEA76000A502D /* ShapeStyle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CB6A62F0BEA76000A502D /* ShapeStyle+Extensions.swift */; };
+		728CB6B02F0BEA76000A502D /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CB6A52F0BEA76000A502D /* Color+Extensions.swift */; };
+		728CB6B12F0BEA76000A502D /* HRLaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728CB6AA2F0BEA76000A502D /* HRLaunchView.swift */; };
+		ED062058A760B15F66344E75 /* Pods_HighwayRoads.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E56E4428B39203A1E1C381 /* Pods_HighwayRoads.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D04CE664CAB625B26689B25 /* Pods-HighwayRoads.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayRoads.debug.xcconfig"; path = "Target Support Files/Pods-HighwayRoads/Pods-HighwayRoads.debug.xcconfig"; sourceTree = "<group>"; };
+		42E56E4428B39203A1E1C381 /* Pods_HighwayRoads.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HighwayRoads.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		728CB68F2F0BEA2D000A502D /* HighwayRoads.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HighwayRoads.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		728CB69E2F0BEA6E000A502D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		728CB69F2F0BEA6E000A502D /* HighwayRoadsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighwayRoadsApp.swift; sourceTree = "<group>"; };
+		728CB6A42F0BEA76000A502D /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		728CB6A52F0BEA76000A502D /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		728CB6A62F0BEA76000A502D /* ShapeStyle+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Extensions.swift"; sourceTree = "<group>"; };
+		728CB6A82F0BEA76000A502D /* HRHomeWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRHomeWebView.swift; sourceTree = "<group>"; };
+		728CB6AA2F0BEA76000A502D /* HRLaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HRLaunchView.swift; sourceTree = "<group>"; };
+		728CB6B22F0BEB11000A502D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AFB4B1AFC7957910665FC422 /* Pods-HighwayRoads.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HighwayRoads.release.xcconfig"; path = "Target Support Files/Pods-HighwayRoads/Pods-HighwayRoads.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		728CB68C2F0BEA2D000A502D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED062058A760B15F66344E75 /* Pods_HighwayRoads.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A037A6BCF8F3B28A0EA3708 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E56E4428B39203A1E1C381 /* Pods_HighwayRoads.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		728CB6862F0BEA2C000A502D = {
+			isa = PBXGroup;
+			children = (
+				728CB6A02F0BEA6E000A502D /* HighwayRoads */,
+				728CB6902F0BEA2D000A502D /* Products */,
+				E76F8138824F21C123AD3C3B /* Pods */,
+				3A037A6BCF8F3B28A0EA3708 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		728CB6902F0BEA2D000A502D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				728CB68F2F0BEA2D000A502D /* HighwayRoads.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		728CB6A02F0BEA6E000A502D /* HighwayRoads */ = {
+			isa = PBXGroup;
+			children = (
+				728CB6B22F0BEB11000A502D /* Info.plist */,
+				728CB6A72F0BEA76000A502D /* Extensions */,
+				728CB6AC2F0BEA76000A502D /* Screens */,
+				728CB6A32F0BEA70000A502D /* App */,
+				728CB69E2F0BEA6E000A502D /* Assets.xcassets */,
+			);
+			path = HighwayRoads;
+			sourceTree = "<group>";
+		};
+		728CB6A32F0BEA70000A502D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				728CB69F2F0BEA6E000A502D /* HighwayRoadsApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		728CB6A72F0BEA76000A502D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				728CB6A42F0BEA76000A502D /* View+Extensions.swift */,
+				728CB6A52F0BEA76000A502D /* Color+Extensions.swift */,
+				728CB6A62F0BEA76000A502D /* ShapeStyle+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		728CB6A92F0BEA76000A502D /* HomeWebScreen */ = {
+			isa = PBXGroup;
+			children = (
+				728CB6A82F0BEA76000A502D /* HRHomeWebView.swift */,
+			);
+			path = HomeWebScreen;
+			sourceTree = "<group>";
+		};
+		728CB6AB2F0BEA76000A502D /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				728CB6AA2F0BEA76000A502D /* HRLaunchView.swift */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		728CB6AC2F0BEA76000A502D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				728CB6A92F0BEA76000A502D /* HomeWebScreen */,
+				728CB6AB2F0BEA76000A502D /* LaunchScreen */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E76F8138824F21C123AD3C3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D04CE664CAB625B26689B25 /* Pods-HighwayRoads.debug.xcconfig */,
+				AFB4B1AFC7957910665FC422 /* Pods-HighwayRoads.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		728CB68E2F0BEA2D000A502D /* HighwayRoads */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 728CB69B2F0BEA2E000A502D /* Build configuration list for PBXNativeTarget "HighwayRoads" */;
+			buildPhases = (
+				C362002B45D2C1D5197B6343 /* [CP] Check Pods Manifest.lock */,
+				728CB68B2F0BEA2D000A502D /* Sources */,
+				728CB68C2F0BEA2D000A502D /* Frameworks */,
+				728CB68D2F0BEA2D000A502D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HighwayRoads;
+			productName = HighwayRoads;
+			productReference = 728CB68F2F0BEA2D000A502D /* HighwayRoads.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		728CB6872F0BEA2C000A502D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					728CB68E2F0BEA2D000A502D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 728CB68A2F0BEA2C000A502D /* Build configuration list for PBXProject "HighwayRoads" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 728CB6862F0BEA2C000A502D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 55;
+			productRefGroup = 728CB6902F0BEA2D000A502D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				728CB68E2F0BEA2D000A502D /* HighwayRoads */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		728CB68D2F0BEA2D000A502D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728CB6A12F0BEA6E000A502D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C362002B45D2C1D5197B6343 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HighwayRoads-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		728CB68B2F0BEA2D000A502D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				728CB6A22F0BEA6E000A502D /* HighwayRoadsApp.swift in Sources */,
+				728CB6AD2F0BEA76000A502D /* HRHomeWebView.swift in Sources */,
+				728CB6AE2F0BEA76000A502D /* View+Extensions.swift in Sources */,
+				728CB6AF2F0BEA76000A502D /* ShapeStyle+Extensions.swift in Sources */,
+				728CB6B02F0BEA76000A502D /* Color+Extensions.swift in Sources */,
+				728CB6B12F0BEA76000A502D /* HRLaunchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		728CB6992F0BEA2E000A502D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		728CB69A2F0BEA2E000A502D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		728CB69C2F0BEA2E000A502D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D04CE664CAB625B26689B25 /* Pods-HighwayRoads.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HighwayRoads/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Highway Roads";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rybitskaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Debug;
+		};
+		728CB69D2F0BEA2E000A502D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB4B1AFC7957910665FC422 /* Pods-HighwayRoads.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99Y7AUQG6Y;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HighwayRoads/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Highway Roads";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rybitskaproj.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		728CB68A2F0BEA2C000A502D /* Build configuration list for PBXProject "HighwayRoads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728CB6992F0BEA2E000A502D /* Debug */,
+				728CB69A2F0BEA2E000A502D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		728CB69B2F0BEA2E000A502D /* Build configuration list for PBXNativeTarget "HighwayRoads" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				728CB69C2F0BEA2E000A502D /* Debug */,
+				728CB69D2F0BEA2E000A502D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 728CB6872F0BEA2C000A502D /* Project object */;
+}
